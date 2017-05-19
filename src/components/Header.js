@@ -6,7 +6,9 @@ export default class Header extends Component {
         return(
             <div>
             <Appbar>
-                <h2>Header, needs more work...add r-router also</h2>
+                  <div className="mui--appbar-height mui--appbar-line-height" style={{border: "1px solid #aaa"}}>
+          Vertically centered
+        </div>
             </Appbar>
             </div>
         )
