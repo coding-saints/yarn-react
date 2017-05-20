@@ -1,28 +1,37 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
+html,
 body {
- padding: 5px;
-  background: gray;
-}
-
-.layout-content {
-
   height: 100%;
-  width: 25%;
-    margin-top: 15px;
-    padding: 20px;
-    background: url('../assets/three.jpg') center;
+ max-width: 100%;
+  margin: 5px;
+  font-size: 100%;
+
+  background: gray;
+  
+}
+#intro {
+  text-align: center;
+}
+.layout-content {
+     display: inline-block;
+     height: 550px;
+      min-width: 100%;
+     margin: 0 auto;
+    background: url('../assets/keylight.jpg') no-repeat center fixed; 
+   -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 .footer-box {
   clear: both;
   background-color: #484545;
   height: 120px;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0px;
   left: 0px;
+  margin-top:10px;
 }
 
 

@@ -10,15 +10,15 @@ export default class Layout extends Component {
         return(
             <div id="main">
                 <Header />
-                 <Container className="layout-content">
+         
                 
-               
-             
-                <h1>Main Page for Yarn/React setup</h1>
+                <Container className="layout-content">
+                    <h1 id="intro" style={{color: "#FFF"}}>Main Page for Yarn/React setup</h1>
+                     </Container>
                
 
            
-              </Container>
+              
                  <Container className="mui--z5">
                 
                

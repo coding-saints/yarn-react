@@ -26,11 +26,6 @@ module.exports = {
           fallback: 'style-loader',
           use: ['css-loader', 'sass-loader']
         })
-        // use: [
-        //   'style-loader',
-        //   'css-loader?sourceMap&camelCase&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-        //   'sass-loader?sourceMap'
-        // ]
       },
       {
         test: /\.(jpg|png|svg)$/,
