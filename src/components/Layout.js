@@ -1,6 +1,7 @@
 
 import React, {Component} from 'react'
 import Header from './Header'
+import Forms from './Forms'
 import Footer from './Footer'
 import Container from 'muicss/lib/react/appbar'
 
@@ -8,35 +9,27 @@ import Container from 'muicss/lib/react/appbar'
 export default class Layout extends Component {
     render() {
         return(
+            
             <div id="main">
-                <Header />
-         
-                
-                <Container className="layout-content">
-                    <h1 id="intro" style={{color: "#FFF"}}>Main Page for Yarn/React setup</h1>
+              
+                <Container className="box-zero">
+          
+                    <img id="hero" src="../assets/pexels.jpeg"/>
+                   
                      </Container>
+                 <Container className=" box one mui--z5">
+                    <h2>Title of Card</h2>
+                    <p>so many ideas to add</p>
                
-
            
-              
-                 <Container className="mui--z5">
-                
-               
-              
-                <h1>Main Page for Yarn/React setup</h1>
-               
-
-              
               </Container>
-                 <Container>
+                 <Container className="box two">
+            <h2 className="text">Title of Card</h2>
+                    <p>so many ideas to add</p>
                 
-              
-              
-                <h1>Main Page for Yarn/React setup</h1>
-               
-
-        
+ 
               </Container>
+              <Forms />
                 <Footer />
                
                 

@@ -1,37 +1,199 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html,
 body {
   height: 100%;
  max-width: 100%;
   margin: 5px;
   font-size: 100%;
-
+ font-family: 'Lato', sans-serif;
   background: gray;
   
 }
+.routes-wrapper {
+ 
+ul {
+  background: #96bf48;
+  -webkit-box-shadow: 3px 3px 1px 0px rgba(194,184,194,1);
+-moz-box-shadow: 3px 3px 1px 0px rgba(194,184,194,1);
+box-shadow: 3px 3px 1px 0px rgba(194,184,194,1);
+  line-height: 8vh; 
+  display: grid;
+  grid-template-columns: 240px 250px auto;
+  grid-template-rows: 5% 10px auto;
+  
+
+  li {
+    list-style-type: none;
+  
+  }
+}
+}
+.text {
+ 
+}
+#hero {
+  width: 100%;
+  max-height: 650px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 #intro {
   text-align: center;
 }
-.layout-content {
-     display: inline-block;
-     height: 550px;
-      min-width: 100%;
-     margin: 0 auto;
-    background: url('../assets/keylight.jpg') no-repeat center fixed; 
-   -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+.box-zero {
+     background: none;
+  //    height: 450px;
+  //     min-width: 100%;
+  //    margin: 0 auto;
+  //   background: url('../assets/sr.png') no-repeat center fixed; 
+  //  -webkit-background-size: contain;
+  // -moz-background-size: contain;
+  // -o-background-size: contain;
+  // background-size: contain;
 }
+.box {
+  display: inline-grid;
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  .one {
+
+  }
+  .two {
+
+  }
+}
+
 .footer-box {
   clear: both;
   background-color: #484545;
   height: 120px;
   width: 100%;
   position: relative;
-  bottom: 0px;
-  left: 0px;
-  margin-top:10px;
+
+      display: inline-block;
+  
+  
+
+.social-icons {
+ width: 100%;
+    margin: 0 auto;
+}
+
+// .icon {
+  
+
+
+
+//     &:last-of-type {
+//         margin-right: 0;
+//     }
+
+//     a {
+//         display: block;
+//         position: absolute;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         border: 0;
+//         border-radius: 10px;
+//         background-color: #fff;
+//         background-size: 100%;
+//         background-repeat: no-repeat;
+//         background-position: center center;
+//         transition: all .2s ease-out;
+
+//         &:hover {
+//             background-color: #222;
+//             background-size: 0%;
+//             transition: all .2s ease-out;
+//         }
+//     }
+// }
+
+.icon__name {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -7px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+  
+    transition: all .3s ease-out;
+    opacity: 0;
+    filter: blur(25px);
+    transform: translateZ(0);
+    will-change: transform;
+  
+    .icon:hover & {
+        transition: all .3s ease-out;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+// Customise Icons
+
+.icon--facebook a {
+    background-color: #3b5998;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--twitter a {
+    background-color: #00aced;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--linkedin a {
+    background-color: #007fb1;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--instagram a {
+    background-color: #5c3d2e;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--flickr a {
+    background-color: #c9317d;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--spotify a {
+    background-color: #80b719;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--soundcloud a {
+    background-color: #f60;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--lastfm a {
+    background-color: #d51007;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--kickstarter a {
+    background-color: #87c442;
+    background-image: url('../assets/instagram.svg');
+}
+
+.icon--github a {
+    background-color: #4183c4;
+    background-image: url('../assets/instagram.svg');
+}
+
+
+
+
+
+
+
+
 }
 
 
